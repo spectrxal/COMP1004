@@ -1,1 +1,1 @@
-# COMP1004
+# Fitness Tracker
