@@ -1,0 +1,23 @@
+@startuml
+class User {
+  +string name
+  +int score
+  +takeQuiz()
+}
+
+class Quiz {
+  +start()
+  +checkAnswers()
+  +showResults()
+}
+
+class Question {
+  -string text
+  -string[] choices
+  -string correctAnswer
+  +displayQuestion()
+}
+
+User --> Quiz : "takes"
+Quiz *-- Question : "contains"
+@enduml

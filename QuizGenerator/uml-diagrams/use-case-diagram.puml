@@ -1,0 +1,10 @@
+@startuml
+actor User
+actor Admin
+
+User --> (Select Quiz Topic)
+User --> (Start Quiz)
+User --> (Submit Answers)
+Admin --> (Manage Quiz Questions)
+
+@enduml

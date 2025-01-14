@@ -1,0 +1,14 @@
+@startuml
+actor User
+participant QuizApp
+participant API
+
+User -> QuizApp: Select Topic
+QuizApp -> API: Fetch Questions
+API --> QuizApp: Return Questions
+QuizApp -> User: Display Questions
+User -> QuizApp: Submit Answers
+QuizApp -> API: Validate Answers
+API --> QuizApp: Send Results
+QuizApp -> User: Display Results
+@enduml
