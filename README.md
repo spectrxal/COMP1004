@@ -5,36 +5,36 @@
 Below are the diagrams for the Quiz Generator project. 
 ### Use-Case Diagram
 
-![Use-Case Diagram](diagrams/UseCaseDiagram.png)
+![Use-Case Diagram](COMP1004/QuizGenerator/uml-diagrams/diagrams/UseCaseDiagram.png)
 
-[Download Use-Case Diagram](diagrams/UseCaseDiagram.png)
+[Download Use-Case Diagram](COMP1004/QuizGenerator/uml-diagrams/diagrams/UseCaseDiagram.png)
 
 ### Class Diagram
 
-![Class Diagram](diagrams/ClassDiagram.png)
+![Class Diagram](COMP1004/QuizGenerator/uml-diagrams/diagrams/ClassDiagram.png)
 
-[Download Class Diagram](diagrams/ClassDiagram.png)
+[Download Class Diagram](COMP1004/QuizGenerator/uml-diagrams/diagrams/ClassDiagram.png)
 
 ### Sequence Diagram
 
-![Sequence Diagram](diagrams/SequenceDiagram.png)
+![Sequence Diagram](COMP1004/QuizGenerator/uml-diagrams/diagrams/SequenceDiagram.png)
 
-[Download Sequence Diagram](diagrams/SequenceDiagram.png)
+[Download Sequence Diagram](COMP1004/QuizGenerator/uml-diagrams/diagrams/SequenceDiagram.png)
 
 ### Architecture Diagram
 
-![Architecture Diagram](diagrams/ArchitectureDiagram.png)
+![Architecture Diagram](COMP1004/QuizGenerator/uml-diagrams/diagrams/ArchitectureDiagram.png)
 
-[Download Architecture Diagram](diagrams/ArchitectureDiagram.png)
+[Download Architecture Diagram](COMP1004/QuizGenerator/uml-diagrams/diagrams/ArchitectureDiagram.png)
 
 ### Sitemap Diagram
 
-![Sitemap Diagram](diagrams/SitemapDiagram.png)
+![Sitemap Diagram](COMP1004/QuizGenerator/uml-diagrams/diagrams/SitemapDiagram.png)
 
-[Download Sitemap Diagram](diagrams/SitemapDiagram.png)
+[Download Sitemap Diagram](COMP1004/QuizGenerator/uml-diagrams/diagrams/SitemapDiagram.png)
 
 ### Wireframe Diagram
 
-![Wireframe Diagram](diagrams/WireframeDiagram.png)
+![Wireframe Diagram](COMP1004/QuizGenerator/uml-diagrams/diagrams/WireframeDiagram.png)
 
-[Download Wireframe Diagram](diagrams/WireframeDiagram.png)
+[Download Wireframe Diagram](COMP1004/QuizGenerator/uml-diagrams/diagrams/WireframeDiagram.png)
