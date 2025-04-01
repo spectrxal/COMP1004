@@ -35,6 +35,6 @@ Below are the diagrams for the Quiz Generator project.
 
 ### Wireframe Diagram
 
-![Wireframe Diagram](QuizGenerator/uml-diagrams/diagrams/WireframeDiagram.png)
+![Wireframe Diagram](QuizGenerator/uml-diagrams/diagrams/wireframediagram.png)
 
-[Download Wireframe Diagram](QuizGenerator/uml-diagrams/diagrams/WireframeDiagram.png)
+[Download Wireframe Diagram](QuizGenerator/uml-diagrams/diagrams/wireframediagram.png)
