@@ -1,6 +1,8 @@
 # Quizerator
 
-Quizerator is a single page application that generates a quiz for you without the hassle of making a quiz yourself, using external APIs to provide a source of entertainment, particularly for those in university. It also provides inclusion as anyone can play due to the nature of the quiz generation, even the person who generated said quiz!
+## Overview
+
+Welcome to Quizerator — a nimble, interactive trivia platform designed for spirited quiz sessions. Users select a topic from a curated list, triggering a dynamic retrieval of multiple-choice questions sourced live from an external service. With answers shuffled on the fly and scores computed instantly, this tool offers a fresh, engaging experience ideal for pub-style challenges and interactive learning.
 
 ## Quiz Generator Diagrams
 
