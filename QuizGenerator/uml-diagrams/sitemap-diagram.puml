@@ -1,0 +1,11 @@
+@startuml SitemapDiagram
+title Sitemap for Quiz Generator
+
+rectangle "Home Page" as HP
+rectangle "Quiz Page" as QP
+rectangle "Score Page" as SP
+
+HP --> QP : Select Topic & Generate Quiz
+QP --> SP : Answer & Submit Quiz
+
+@enduml

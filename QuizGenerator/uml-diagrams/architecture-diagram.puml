@@ -1,0 +1,11 @@
+@startuml ArchitectureDiagram
+title Architecture Diagram
+
+rectangle "HTML & CSS (UI)" as UI
+rectangle "JavaScript (Logic)" as JS
+rectangle "Trivia API" as API
+
+UI --> JS : Handles user events
+JS --> API : API Requests/Responses
+
+@enduml

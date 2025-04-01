@@ -1,10 +1,20 @@
-@startuml
-actor User
-actor Admin
+@startuml UseCaseDiagram
+left to right direction
 
-User --> (Select Quiz Topic)
-User --> (Start Quiz)
-User --> (Submit Answers)
-Admin --> (Manage Quiz Questions)
+actor "User" as user
+
+rectangle "Quiz Generator System" {
+  usecase "Select Topic" as UC_SelectTopic
+  usecase "Generate Quiz" as UC_GenerateQuiz
+  usecase "Answer Questions" as UC_AnswerQuestions
+  usecase "Submit Quiz" as UC_SubmitQuiz
+  usecase "View Score" as UC_ViewScore
+}
+
+user --> UC_SelectTopic : chooses a category
+user --> UC_GenerateQuiz : requests questions
+user --> UC_AnswerQuestions : interacts with quiz
+user --> UC_SubmitQuiz : submits answers
+user --> UC_ViewScore : views final score
 
 @enduml

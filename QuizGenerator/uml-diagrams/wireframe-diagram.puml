@@ -1,0 +1,17 @@
+@startuml wireframediagram
+title Wireframe of Quiz Generator
+
+rectangle "Header: Quiz Generator" as Header
+rectangle "Dropdown: Topic Selector" as TopicSelector
+rectangle "Button: Generate Quiz" as GenButton
+rectangle "Quiz Container: Questions & Answers" as QuizContainer
+rectangle "Button: Submit Quiz" as SubmitButton
+rectangle "Footer: Additional Info" as Footer
+
+Header -down-> TopicSelector
+TopicSelector -down-> GenButton
+GenButton -down-> QuizContainer
+QuizContainer -down-> SubmitButton
+SubmitButton -down-> Footer
+
+@enduml

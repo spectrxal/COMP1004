@@ -1,14 +1,17 @@
-@startuml
-actor User
-participant QuizApp
-participant API
+@startuml SequenceDiagram
 
-User -> QuizApp: Select Topic
-QuizApp -> API: Fetch Questions
-API --> QuizApp: Return Questions
-QuizApp -> User: Display Questions
-User -> QuizApp: Submit Answers
-QuizApp -> API: Validate Answers
-API --> QuizApp: Send Results
-QuizApp -> User: Display Results
+actor User
+participant "Browser" as Browser
+participant "Trivia API" as API
+
+User -> Browser: Click "Generate Quiz"
+Browser -> Browser: Call generateQuiz(categoryId)
+Browser -> API: Fetch questions from API
+API --> Browser: Return quiz questions
+Browser -> Browser: Call displayQuestions(questions)
+User -> Browser: Select answers
+User -> Browser: Click "Submit Quiz"
+Browser -> Browser: Call checkAnswers(questions)
+Browser --> User: Display score
+
 @enduml

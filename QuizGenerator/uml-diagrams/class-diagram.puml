@@ -1,23 +1,12 @@
-@startuml
-class User {
-  +string name
-  +int score
-  +takeQuiz()
+@startuml ClassDiagram
+
+class QuizGenerator {
+  - questions : Array
+  - score : Number
+  + generateQuiz(categoryId: Number)
+  + displayQuestions(questions: Array)
+  + shuffleArray(array: Array)
+  + checkAnswers()
 }
 
-class Quiz {
-  +start()
-  +checkAnswers()
-  +showResults()
-}
-
-class Question {
-  -string text
-  -string[] choices
-  -string correctAnswer
-  +displayQuestion()
-}
-
-User --> Quiz : "takes"
-Quiz *-- Question : "contains"
 @enduml
