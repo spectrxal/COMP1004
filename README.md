@@ -1,21 +1,40 @@
 # Quizerator
 
-## UML Diagrams for Quizerator App
+## Quiz Generator Diagrams
 
-### Architecture Diagram
-![Architecture Diagram](C:\Users\Tomni\source\repos\QuizGenerator\uml-diagrams\diagrams\architecture-diagram\ArchitectureDiagram.png)
+Below are the diagrams for the Quiz Generator project. 
+### Use-Case Diagram
+
+![Use-Case Diagram](diagrams/UseCaseDiagram.png)
+
+[Download Use-Case Diagram](diagrams/UseCaseDiagram.png)
 
 ### Class Diagram
-![Class Diagram](C:\Users\Tomni\source\repos\QuizGenerator\uml-diagrams\diagrams\class-diagram\ClassDiagram.png)
+
+![Class Diagram](diagrams/ClassDiagram.png)
+
+[Download Class Diagram](diagrams/ClassDiagram.png)
 
 ### Sequence Diagram
-![Sequence Diagram](C:\Users\Tomni\source\repos\QuizGenerator\uml-diagrams\diagrams\sequence-diagram\SequenceDiagram.png)
+
+![Sequence Diagram](diagrams/SequenceDiagram.png)
+
+[Download Sequence Diagram](diagrams/SequenceDiagram.png)
+
+### Architecture Diagram
+
+![Architecture Diagram](diagrams/ArchitectureDiagram.png)
+
+[Download Architecture Diagram](diagrams/ArchitectureDiagram.png)
 
 ### Sitemap Diagram
-![Sitemap Diagram](C:\Users\Tomni\source\repos\QuizGenerator\uml-diagrams\diagrams\sitemap-diagram\SitemapDiagram.png)
 
-### Use-Case Diagram
-![Use-Case Diagram](C:\Users\Tomni\source\repos\QuizGenerator\uml-diagrams\diagrams\use-case-diagram\UseCaseDiagram.png)
+![Sitemap Diagram](diagrams/SitemapDiagram.png)
+
+[Download Sitemap Diagram](diagrams/SitemapDiagram.png)
 
 ### Wireframe Diagram
-![Wireframe Diagram](C:\Users\Tomni\source\repos\QuizGenerator\uml-diagrams\diagrams\wireframe-diagram\WireframeDiagram.png)
+
+![Wireframe Diagram](diagrams/WireframeDiagram.png)
+
+[Download Wireframe Diagram](diagrams/WireframeDiagram.png)
