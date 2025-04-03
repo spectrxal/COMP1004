@@ -1,6 +1,6 @@
-// Fetch and generate quiz questions based on the selected category
+
 async function generateQuiz(categoryId) {
-    const apiUrl = `https://opentdb.com/api.php?amount=5&category=${categoryId}&type=multiple`;
+    const apiUrl = `https://opentdb.com/api.php?amount=10&category=${categoryId}&type=multiple`;    
 
     try {
         const response = await fetch(apiUrl);
@@ -17,14 +17,13 @@ async function generateQuiz(categoryId) {
     }
 }
 
-// Display quiz questions and answers in the container
 function displayQuestions(questions) {
     const quizContainer = document.getElementById('quiz-container');
-    quizContainer.innerHTML = "";  // Clear previous content
+    quizContainer.innerHTML = ""; 
 
     questions.forEach((question, index) => {
         const answers = [...question.incorrect_answers, question.correct_answer];
-        shuffleArray(answers);  // Shuffle the answer options
+        shuffleArray(answers);  
 
         let questionHtml = `<div>
             <h3>${index + 1}. ${question.question}</h3>`;
@@ -41,16 +40,13 @@ function displayQuestions(questions) {
         quizContainer.innerHTML += questionHtml;
     });
 
-    // Add submit button for quiz
     quizContainer.innerHTML += `<button id="submit-quiz">Submit Quiz</button>`;
 
-    // Attach event listener for quiz submission
     document.getElementById('submit-quiz').addEventListener('click', function () {
         checkAnswers(questions);
     });
 }
 
-// Shuffle answer options using Fisher-Yates algorithm
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -58,7 +54,6 @@ function shuffleArray(array) {
     }
 }
 
-// Check answers and calculate the score
 function checkAnswers(questions) {
     let score = 0;
 
@@ -73,7 +68,6 @@ function checkAnswers(questions) {
     alert(`You scored ${score} out of ${questions.length}`);
 }
 
-// Event listener for quiz generation
 document.getElementById('generate-quiz').addEventListener('click', function () {
     const categoryId = document.getElementById('topic-select').value;
     generateQuiz(categoryId);
