@@ -1,0 +1,109 @@
+/* Import a bold, display font for headings */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #1d1f21; 
+  color: #e0e0e0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.8em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fdd835; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Styling for labels and the topic selector */
+label {
+  font-size: 1.2em;
+  display: block;
+  margin-bottom: 8px;
+}
+
+select {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background-color: #333;
+  color: #e0e0e0;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+/* Button styling for primary actions */
+button {
+  display: block;
+  background-color: #fdd835;
+  color: #1d1f21;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.2em;
+  margin: 20px auto;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #fbc02d;
+}
+
+/* Quiz container styling for question cards */
+#quiz-container {
+  margin-top: 30px;
+}
+
+/* Individual quiz question blocks */
+#quiz-container div {
+  background-color: #2a2d32;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Quiz question headers styled with the display font */
+#quiz-container h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  color: #fdd835;
+}
+
+/* Radio input styling for clear selections */
+input[type="radio"] {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Label styling for quiz answers */
+#quiz-container label {
+  font-size: 1em;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2em;
+  }
+  label, select, button {
+    font-size: 1em;
+  }
+}
